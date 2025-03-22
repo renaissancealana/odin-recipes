@@ -1,14 +1,27 @@
 h1,h2 {
     color: blueviolet;
 }
-
+h1 {
+    text-align: center;
+    background-color: beige;
+    padding: 30px;
+}
 h2 {
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-li {
-    background-color: beige;
+.ingredients {
+    color: darkgreen;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recipelist {
+    font-size: x-large;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
 }
